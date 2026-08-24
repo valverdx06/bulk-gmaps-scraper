@@ -1,0 +1,16 @@
+name: gmaps-scraper
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pandas>=2.0.0
+  - openpyxl>=3.1.0
+  - beautifulsoup4>=4.12.0
+  - httpx>=0.25.0
+  - lxml>=4.9.0
+  - colorama>=0.4.6
+  - pip:
+      - playwright>=1.40.0
+      - playwright-stealth>=1.0.6

@@ -1,0 +1,29 @@
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+conda_env/
+
+# Data outputs & scraped files (avoids committing huge spreadsheets to git)
+output/*
+!output/.gitkeep
+
+# Logs
+*.log
+nohup.out
+
+# IDEs & System
+.DS_Store
+.idea/
+.vscode/
+
+# Installer script
+get-pip.py
